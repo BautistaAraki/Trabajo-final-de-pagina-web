@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 @media (max-width: 768px) {
+       nav ul{
+        flex-direction: column;
+      }
       .header {
         flex-direction: column;
         text-align: center;
@@ -393,4 +396,5 @@ h2{
 }
 .hero-juego.haloinfinit {
    background-image: url("../imagenes index/halo\ infinit.webp");
+
 }
