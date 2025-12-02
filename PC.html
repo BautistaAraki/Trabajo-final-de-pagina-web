@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zona gamer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="java script/java.js"></script>
+</head>
+  <header>
+    <div class="logo">
+      <img src="imagenes index/logo.png" alt="logo">
+      <h1>zona gamer</h1>
+    </div>
+    <nav class="menu">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="play stacion.html"><a>Playstacion</a></li>
+              <li><a href="xbox.html">xbox</a></li>
+              <li><a href="PC.html"class="active">Pc</a></li>
+              <li><a href="oferta.html">Ofertas</a></li>
+          </ul>
+    </nav>
+  </header>
+  <body id='inicio' class="bg-dark text-white text-center py-5 mt-5">
+        <div class="hero">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img width="50" height="510" src="imagenes index/pc gamer.png" class="d-block w-100 " alt="PC">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes index/Resident evil 4 remake.webp" class="d-block w-100" alt="Playstacion">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes index/Elden ring.avif" class="d-block w-100" alt="Playstacion">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+  </button>
+    <section class="content">
+      <h2> Tendencia</h2>
+        <div class="games-container">
+        <div class="card">
+          <img src="imagenes index/Baldur gate 3 .png" alt="Baldur gate 3">
+          <h2>Baldur gate 3</h2>
+          <p>Explora un mundo de fantasía épica, toma decisiones que cambian la historia y libra combates tácticos al estilo D&D.</p>
+          <button onclick="agregarProducto('Baldur gate 3  ', 38)"> Agregar Baldur gate 3 </button>
+          <li class="button"><a href="baldur gate 3.html"> ver mas</a></li>
+        </div>
+
+        <div class="card">
+          <img src="imagenes index/Elden ring.avif" alt="Ciber punk">
+          <h2>Elder ring</h2>
+          <p>Adéntrate en un vasto mundo abierto ,lleno de enemigos imponentes y secretos ocultos.</p>
+          <li class="button"><a href="eldenring.html"> ver mas</a></li>
+          <button onclick="agregarProducto('Elden ring ', 30)"> Agregar Elden ring</button>
+        </div>
+
+        <div class="card">
+          <img src="imagenes index/Resident evil 4 remake.webp" alt="Resident evil 4  remake">
+          <h2>Resident Evil 4 Remake</h2>
+          <p>Revive el clásico de terror y acción con gráficos renovados, enfrentando criaturas letales para rescatar a la hija del presidente.</p>
+          <li class="button"><a href="resindet evil 4 .html">ver mas</a></li>
+          <button onclick="agregarProducto('Resident evil 4 Remake', 40)"> Agregar Resident Evil 4 Remake</button>
+        </div>
+        <div class="card">
+          
+        </div>
+</div>
+</div>
+
+    </section>
+  </body>
+<section class="carrito">
+  <h2>🛒 Carrito</h2>
+  <ul id="listaCarrito"></ul>
+  <p>Total: $<span id="total">0</span></p>
+  <button onclick="vaciarCarrito()">Vaciar carrito</button>
+</section>
+</section>
+<footer>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2>Zona Gamer</h2>
+      <p>Tu tienda de videojuegos favorita 🎮</p>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contacto</h3>
+      <p>📍 Dirección: San Miguel, Buenos Aires</p>
+      <p>📞 Tel: +54 11 6362-8009</p>
+      <p>✉️ Email: contacto@zonagamer.com</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Redes</h3>
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Zona Gamer - Todos los derechos reservados</p>
+  </div>
+</footer>
+    <div id="notificacion" class="notificacion"></div>
+
+</body>
